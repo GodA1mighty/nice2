@@ -1,6 +1,14 @@
-# An Intro with your name, date, class, and purpose of program2. Explanation of your function3. Storing data (or list) 4. Start of Try/Except5. Data Validation Include a Use Case Definition 10 ptsA use case definition is like a user manual – step by stepinstructions of what the user will encounter as they go through the program
+# 2. Explanation of your function
+# 3. Storing data (or list) 
+# 4. Start of Try/Except
+# 5. Data Validation 
+# Include a Use Case Definition, a use case definition is like a user manual – step by stepinstructions of what the user will encounter as they go through the program
 
 
+#Name: Adam Venecia
+#Date: December 7, 2023
+#ITSE-1402-V01
+#Purpose: Converts Text into Binary and Binary into Text
 import tkinter as tk
 from tkinter import messagebox
 
