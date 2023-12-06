@@ -1,3 +1,6 @@
+# An Intro with your name, date, class, and purpose of program2. Explanation of your function3. Storing data (or list) 4. Start of Try/Except5. Data Validation Include a Use Case Definition 10 ptsA use case definition is like a user manual – step by stepinstructions of what the user will encounter as they go through the program
+
+
 import tkinter as tk
 from tkinter import messagebox
 
