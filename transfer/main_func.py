@@ -20,7 +20,7 @@ message = input("Enter a message: ")
 for character in message:
     ascii_value = ord(character)
     binary_representation = format(ascii_value, "b")
-binary_values.append(binary_representation)
+    binary_values.append(binary_representation)
 binary = " ".join(binary_values)
 print("Binary representation:", binary)
 
@@ -30,7 +30,7 @@ binary_substrings = user_input.split(" ")
 for character in binary_substrings:
     decimal_value = int(character, 2)
     ascii_character = chr(decimal_value)
-ascii_characters.append(ascii_character)
+    ascii_characters.append(ascii_character)
 text = "".join(ascii_characters)
 print(text)
     
