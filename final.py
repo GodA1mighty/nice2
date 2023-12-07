@@ -37,8 +37,8 @@ def convert_text():
             binary_values = binary_text.split()
             text_result = ''.join(chr(int(binary, 2)) for binary in binary_values)
             result_label.config(text="Text: " + text_result)
-        except ValueError: #start of except
-            result_label.config(text="Error: Please enter valid binary") #Data Validation
+        except ValueError: #start of except  #Data Validation
+            result_label.config(text="Error: Please enter valid binary")
 
 def toggle_conversion_mode():
     current_mode = conversion_mode.get()
