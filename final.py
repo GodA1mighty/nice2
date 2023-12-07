@@ -10,7 +10,7 @@
 #3. Once the user has entered their text, there can click on the "Convert to Text to Binary" Button to get their result.
 #4. Once the conversion is complete, the result will be displayed to the right of the application.
 #5. The 'Copy Result' button will copy the result on the user's clipboard.
-#
+#convert binary to text, errors, exit.
 import tkinter as tk
 from tkinter import messagebox
 
