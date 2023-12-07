@@ -14,6 +14,7 @@
 #8. If the user input does not correspond to the current mode (typing text in the form during 'Binary to Text mode')
     #then an error message is displayed.
 #9. To exit out of the program, click on the 'x' in the top right corner.
+
 import tkinter as tk
 from tkinter import messagebox
 
@@ -61,6 +62,7 @@ def copy_to_clipboard():
 root = tk.Tk()
 root.title("Text/Binary Converter")
 
+# 3 Cosmetic Changes
 # Set warm colors with a modern font
 bg_color = "#F4DFC8"
 fg_color = "#3d0c02"
