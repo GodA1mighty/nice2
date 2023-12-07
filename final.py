@@ -1,16 +1,19 @@
 #Name: Adam Venecia
 #Date: December 7, 2023
-#ITSE-1402-V01
-#Purpose: Converts Text into Binary and Binary into Text
+#Class: ITSE-1402-V01
+#Purpose: Convert Text into Binary or Binary into Text
     
 #Use Case Definition:
-#1. User is first greeted with three buttons and a form. 
-    #The three buttons are the 'Toggle Mode' button, a 'Convert Text to Binary' button, and a 'Copy Result' button.
+#1. The User is first greeted with three buttons and a form. 
+    #The three buttons are the 'Toggle Mode' button, 'Convert Text to Binary' button, and 'Copy Result' button.
 #2. Above the form is where the user is prompted to "Enter Text:".
-#3. Once the user has entered their text, there can click on the "Convert to Text to Binary" Button to get their result.
-#4. Once the conversion is complete, the result will be displayed to the right of the application.
-#5. The 'Copy Result' button will copy the result on the user's clipboard.
-#convert binary to text, errors, exit.
+#3. Once the user has entered their text, they can click the 'Convert to Text to Binary' button to get their result.
+#5. Once the conversion is complete, the result will be displayed to the right of the application.
+#6. Under the displayed result, the user can save their result with the 'Copy Result' button.
+#7. The 'Toggle Mode' button will switch from text to binary mode into binary to text mode.
+#8. If the user input does not correspond to the current mode (typing text in the form during 'Binary to Text mode')
+    #then an error message is displayed.
+#9. To exit out of the program, click on the 'x' in the top right corner.
 import tkinter as tk
 from tkinter import messagebox
 
