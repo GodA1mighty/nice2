@@ -1,33 +1,34 @@
-# 2. Explanation of your function
-# 3. Storing data (or list) 
-# 4. Start of Try/Except
-# 5. Data Validation 
-# Include a Use Case Definition, a use case definition is like a user manual – step by stepinstructions of what the user will encounter as they go through the program
-
-
 #Name: Adam Venecia
 #Date: December 7, 2023
 #ITSE-1402-V01
 #Purpose: Converts Text into Binary and Binary into Text
+#Use Case Definition:
+#1. 
 import tkinter as tk
 from tkinter import messagebox
 
 def convert_text():
     if conversion_mode.get() == "Text to Binary":
         text = input_entry.get()
-        if not text.isalpha():
+        if not text.isalpha(): #Data Validation
             result_label.config(text="Error: Please enter valid text")
             return
         binary_result = ' '.join(format(ord(char), '08b') for char in text)
+        #Main Function
+        #1 for char in text: this part of the code is a loop that iterates over each character in the variable 'text'.
+        #2 ord(char): It takes a character as an input and returns its unicode then turning it into an integer value.
+        #3 format(ord(char), '09b'): Converts the Unicode of each character into binary as a string. 
+            #'08b' specifices that the string should be 8 digits, '08' and binary, 'b'.
+        #4 ' '.join(...): Joins the binary strings into a single string, seperated by spaces.
         result_label.config(text="Binary: " + binary_result)
     elif conversion_mode.get() == "Binary to Text":
         binary_text = input_entry.get()
-        try:
+        try: #start of Try
             binary_values = binary_text.split()
             text_result = ''.join(chr(int(binary, 2)) for binary in binary_values)
             result_label.config(text="Text: " + text_result)
-        except ValueError:
-            result_label.config(text="Error: Please enter valid binary")
+        except ValueError: #start of except
+            result_label.config(text="Error: Please enter valid binary") #Data Validation
 
 def toggle_conversion_mode():
     current_mode = conversion_mode.get()
@@ -53,7 +54,7 @@ root.title("Text/Binary Converter")
 # Set warm colors with a modern font
 bg_color = "#F4DFC8"
 fg_color = "#3d0c02"
-font_family = "Segoe UI"  # Modern sans-serif font available on Windows
+font_family = "Segoe UI"
 
 # Set root background color
 root.configure(bg=bg_color)
