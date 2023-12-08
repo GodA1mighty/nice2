@@ -91,7 +91,7 @@ convert_button.pack(pady=10)
 result_frame = tk.Frame(root, bg=bg_color)
 result_frame.pack(side=tk.RIGHT, padx=10, pady=10)
 
-result_label = tk.Label(result_frame, text="Binary: ", wraplength=200, bg=bg_color, fg=fg_color, font=(font_family, 12))  # Adjust wraplength as needed
+result_label = tk.Label(result_frame, text="Binary: ", wraplength=200, bg=bg_color, fg=fg_color, font=(font_family, 12))
 result_label.pack(pady=10)
 
 copy_button = tk.Button(result_frame, text="Copy Result", command=copy_to_clipboard, bg=fg_color, fg="white", font=(font_family, 12))
