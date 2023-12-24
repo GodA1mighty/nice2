@@ -43,3 +43,15 @@ if age2 >= 18 and age2 < 65:
 #or expressed like:
 #if 18 <= age < 65:
     print("Eligible4")
+
+print()
+
+g = 9
+h = 8
+if g < h:
+	print('g is less than h')
+else:
+	if g == h:
+		print('g is equal to h')
+	else:
+		print('g is greater than h')
