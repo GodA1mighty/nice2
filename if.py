@@ -90,3 +90,5 @@ responses = [
 "You are correct on both questions!"]
 
 print(responses[answers[0] * 2 + answers[1]])
+
+peepee
