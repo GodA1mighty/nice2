@@ -91,4 +91,21 @@ responses = [
 
 print(responses[answers[0] * 2 + answers[1]])
 
-peepee
+print()
+
+connection = True
+paid = True
+internet = True
+
+def go_online():
+    if not connection:
+        return 'No connection...'
+    elif not paid:
+        return 'User has not paid...'
+    elif not internet:
+        return 'No Internet...'
+    else:
+        return 'You are online'
+
+message = go_online()
+print(message)
