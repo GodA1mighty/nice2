@@ -96,7 +96,6 @@ print()
 connection = True
 paid = True
 internet = True
-
 def go_online():
     if not connection:
         return 'No connection...'
@@ -106,6 +105,38 @@ def go_online():
         return 'No Internet...'
     else:
         return 'You are online'
-
 message = go_online()
 print(message)
+
+print()
+
+paid = True
+internet = True
+if not internet:
+    print("No internet")
+elif not paid:
+    print("User has not paid")
+else:
+    print("You are online")
+
+print()
+
+#guard clauses
+connection = True
+paid = True
+internet = True
+online = True
+def go_online():
+    if not connection:
+        print('No connection')
+        return
+    if not paid:
+        print('User has not paid')
+        return
+    if not internet:
+        print('No internet')
+        return
+    if not online:
+        print('You are offline')
+        return
+    print('You are online')
