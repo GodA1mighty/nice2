@@ -10,7 +10,9 @@ print(message)
 message1 = "Eligible1" if age >= 18 else "Not Eligible1"
 print(message1)
 
-print()
+
+print(-------------)
+
 
 #using operators: or, and, not,
 high_income = False
@@ -25,7 +27,9 @@ if high_income or good_credit:
 else:
     print("2Not Eligible")
 
-print()
+
+print(-------------)
+
 
 #use of parentheses ()
 high_income2 = False
@@ -36,7 +40,9 @@ if (high_income2 or good_credit2) and not student2:
 else:
     print("3Not Eligible")
 
-print()
+
+print(-------------)
+
 
 age2 = 22
 if age2 >= 18 and age2 < 65:
@@ -44,7 +50,9 @@ if age2 >= 18 and age2 < 65:
 #if 18 <= age < 65:
     print("Eligible4")
 
-print()
+
+print(-------------)
+
 
 g = 9
 h = 8
@@ -56,7 +64,9 @@ else:
 	else:
 		print('g is greater than h')
 
-print()
+
+print(-------------)
+
 
 # Ask the user two true or false questions
 question1 = input("Is Python an interpreted language? (True or False) ")
@@ -76,7 +86,9 @@ elif not answer1 and answer2:
 else:
     print("You are wrong on both questions.")
 
-print()
+
+print(-------------)
+
 
 # Ask the user two true or false questions and convert the input to boolean values
 questions = ["Is Python an interpreted language?", "Is Python case-sensitive?"]
@@ -91,7 +103,9 @@ responses = [
 
 print(responses[answers[0] * 2 + answers[1]])
 
-print()
+
+print(-------------)
+
 
 connection = True
 paid = True
@@ -108,7 +122,9 @@ def go_online():
 message = go_online()
 print(message)
 
-print()
+
+print(-------------)
+
 
 paid = True
 internet = True
@@ -119,7 +135,9 @@ elif not paid:
 else:
     print("You are online")
 
-print()
+
+print(-------------)
+
 
 #guard clauses
 connection = True
