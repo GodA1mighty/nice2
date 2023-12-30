@@ -158,3 +158,73 @@ def go_online():
         print('You are offline')
         return
     print('You are online')
+
+
+print(-------------)
+
+
+age = 29
+nationality = 'Indian'
+
+if 18 < age < 30 and nationality == 'Indian':
+    print('You are eligible for the exam. Exam fee is $1,500.')
+elif 18 < age < 30 and nationality == 'American':
+        print('You are eligible for the exam. Exam fee is $15.')
+else:
+    print("You are not eligible for the exam.")
+
+
+print('\n-------------------\n')
+
+
+today = 'Sunday'
+if today == 'Saturday' or today == 'Sunday':
+    print("It's a holiday!")
+elif today == 'Monday' or today == 'Friday':
+    print("Work 2 hours extra.")
+else:
+    print("Normal work hours.")
+
+
+print('\n-------------------\n')
+
+
+x = False
+if not x:
+    print("x is false.")
+
+print()
+
+name = ''
+if not name:
+    print("No name.")
+else:
+    print(f"Your name is {name}.")
+
+print()
+
+names = ['John', 'Mike', 'Sarah']
+if not names: #if the list, dictionary, or tuple is empty, then NOT operator will return True.
+    print("No names.")
+else:
+    print(f"There are a total of {len(names)} names.")
+
+
+print('\n-------------------\n')
+
+
+# False Values:
+# False
+# None
+# Zero of any numeric type
+# Any empty sequence. For exmaple, '', (), [].
+# Any empty mapping. For example, {}.
+
+# True Values:
+# Fill in any of the false values
+
+condition = False#<---change value here into "False", "None", "0", "''", "{}"
+if condition:
+    print('Evaluated to True')
+else:
+    print('Evaluated to False')
