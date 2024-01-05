@@ -228,3 +228,33 @@ if condition:
     print('Evaluated to True')
 else:
     print('Evaluated to False')
+
+
+print('\n-------------------\n')
+
+
+def do_one(x):
+    print("one: x*1 = ", x*1)
+def do_two(x):
+    print("two: x*2 = ", x*2)
+def do_three(x):
+    print("three: x*3 = ", x*3)
+def do_default(x):
+    print("default: x = ", x)
+
+#change value here
+x = 3
+if x == 1:
+    do_one(x)
+elif x == 2:
+    do_two(x)
+elif x == 3:
+    do_three(x)
+else:
+    do_default(x)
+
+actions = {1: do_one, 2: do_two, 3: do_three}
+action = actions.get(x, do_default)
+#vvvv same as ^^^^
+action(x)
+
