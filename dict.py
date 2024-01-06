@@ -55,3 +55,60 @@ for key, value in capitals.items():
 
 print('-------------------------------')
 
+#help(dict)
+#.values(), .keys(), .pop(), .popitem(), .copy(), .get(), .setdefault(), .fromkeys(), .items(), .update, |=
+
+users: dict = {0: 'Mario', 1: 'Luigi', 2: 'Wario',}
+print(users, "\n")
+
+# print(users.values())
+
+# print(users.keys())
+
+#removes only a specficied key and its value
+# users.pop(2)
+# print(users)
+
+#displays the value from the popped key
+# popped = users.pop(2)
+# print(popped)
+# print(users)
+
+#pops the last item from the list
+# users.popitem()
+# users.popitem()
+# print(users)
+
+# my_copy = users.copy()
+# print(users)
+# print(my_copy)
+
+#get the value from a specified key w/o creating an exception
+# print(users.get(1))
+# print(users.get(999, "Missing!"))
+#if a key isn't found, you can add a value to non-listed items like "Missing!" to display the error. It will not create and add keys and values to the dict
+
+# print(users.setdefault(0, '???'))
+# print(users.setdefault(999, '???'))    #not only creates the missing key and its value but also adds it to the dict
+# print(users)
+
+# print(users.clear())
+
+# people: list[str] = ['Peach', 'Toad', 'Bowser']
+# users: dict = dict.fromkeys(people)
+# print(users)
+
+#items include key and value pairs
+# print(users.items())
+# for key, value in users.items():
+#     print(key, value)
+
+# users.update({2: 'Bob', 3: "James' sister"})
+# print(users)
+# print(users | {10: 'Spam', 11: 'Eggs'})#the '|' is a pipeline, a union operator
+
+# users |= {12: 'Chicken', 13: 'Beef'}
+# print(users)
+
+print('-------------------------------')
+
