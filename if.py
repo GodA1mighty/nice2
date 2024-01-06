@@ -1,51 +1,3 @@
-def handle_payment (payment_method):
-switch a {
-3
-4
-'credit _card' process_credit_card,
-"paypal': process_paypal,
-'crypto': process_crypto,
-"bank_transfer':
-process_bank_transfer,
-'default': process_error
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-return switch.get (payment _method, switch ["default"))
-def process_credit_card):
-print ("Procéssing payment using credit card..
-def process_crypto():
-print ("Processing payment using crypto...
-def process _paypal():
-print("Processing payment using
-PayPal.
-def process_bank_transfer():
-print("Processing payment using bank transfer..
-def process_error):
-print("Error in payment processing.
-Please try again.")
-
-
-
-
-
-
 #standard variant
 age = 22
 if age >= 18:
@@ -316,3 +268,21 @@ action = actions.get(x, do_default)
 #vvvv same as ^^^^
 action(x)
 
+
+print('\n-------------------\n')
+
+
+lang = input("What's the programming language you want to learn? ")
+match lang:
+    case "JavaScript":
+        print("You can become a web developer.")
+    case "Python":
+        print("You can become a Data Scientist")
+    case "PHP":
+        print("You can become a backend developer")
+    case "Solidity":
+        print("You can become a Blockchain developer")
+    case "Java":
+        print("You can become a mobile app developer")
+    case _:
+        print("The language doesn't matter, what matters is solving problems.")
