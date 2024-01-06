@@ -159,6 +159,8 @@ def go_online():
         return
     print('You are online')
 
+go_online()
+
 
 print(-------------)
 
