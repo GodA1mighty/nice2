@@ -179,6 +179,14 @@ else:
 print('\n-------------------\n')
 
 
+numbers = [0,1,2]
+answer = "yes" if len(numbers) > 5 else "no"
+print(answer)
+
+
+print('\n-------------------\n')
+
+
 today = 'Sunday'
 if today == 'Saturday' or today == 'Sunday':
     print("It's a holiday!")
