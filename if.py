@@ -286,3 +286,43 @@ match lang:
         print("You can become a mobile app developer")
     case _:
         print("The language doesn't matter, what matters is solving problems.")
+
+
+print('\n-------------------\n')
+
+
+# def calculator(a,b,operator):
+#     if operator=="add":
+#         return a+b
+#     if operator=="sub":
+#         return a-b
+#     if operator=="multiply":
+#         return a*b
+#     if operator=="division":
+#         return a/b
+# print(calculator(9,7,"sub"))
+
+print()
+
+def add(a,b):
+    return a+b
+def sub(a,b):
+    return a-b
+def multiply(a,b):
+    return a*b
+def division(a,b):
+    return a/b
+
+dict_calculator={
+    "add":add,
+    "sub":sub,
+    "mutiply":multiply,
+    "division":division,
+}
+
+print(dict_calculator["mutiply"](6,7))
+print(dict_calculator["add"](3,7))
+
+
+print('\n-------------------\n')
+
