@@ -1,3 +1,51 @@
+def handle_payment (payment_method):
+switch a {
+3
+4
+'credit _card' process_credit_card,
+"paypal': process_paypal,
+'crypto': process_crypto,
+"bank_transfer':
+process_bank_transfer,
+'default': process_error
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+return switch.get (payment _method, switch ["default"))
+def process_credit_card):
+print ("Procéssing payment using credit card..
+def process_crypto():
+print ("Processing payment using crypto...
+def process _paypal():
+print("Processing payment using
+PayPal.
+def process_bank_transfer():
+print("Processing payment using bank transfer..
+def process_error):
+print("Error in payment processing.
+Please try again.")
+
+
+
+
+
+
 #standard variant
 age = 22
 if age >= 18:
