@@ -112,3 +112,31 @@ print(users, "\n")
 
 print('-------------------------------')
 
+
+student = {'name': 'John', 'age': 25, 'course': ['Math', 'CompSci'], 1: 'nice'}
+print(student['name'])
+print(student['course'])
+print(student[1])
+
+del student['age']
+print(student)
+
+
+print('-------------------------------')
+
+
+d = {i:i**2 for i in range(1,6)}
+print(d)
+
+print()
+
+ages = [18, 20, 26, 128]
+d2 = {age:("young" if age <=100 else "old") for age in ages}
+print(d2)
+
+print()
+
+old_price = {'Compound Effect': 12, 'Atomic Habit': 10, 'Twelve Pillars': 7}
+dollar_to_pound = 0.82
+new_price = {k:v*dollar_to_pound for k, v in old_price.items() if v<=10}
+print(new_price)
