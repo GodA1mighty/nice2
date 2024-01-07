@@ -140,3 +140,17 @@ old_price = {'Compound Effect': 12, 'Atomic Habit': 10, 'Twelve Pillars': 7}
 dollar_to_pound = 0.82
 new_price = {k:v*dollar_to_pound for k, v in old_price.items() if v<=10}
 print(new_price)
+
+
+print('-------------------------------')
+
+
+age = {'jack': 38, 'michael': 48, 'guido': 57, 'john': 33}
+
+for i in age:    #only prints the keys
+    print(i)
+
+for i in age.items():    #prints key and value pair
+    print(i)
+
+print(age.items())    #prints the whole dict
