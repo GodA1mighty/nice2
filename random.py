@@ -44,3 +44,21 @@ print()
 cards = [1,2,3,4,5,6,7,8,9,"J","Q","K","A"]
 random.shuffle(cards)
 print(cards)
+
+
+print("\n---------------------------------------\n")
+
+
+random.seed()
+def print_random():
+    for i in range(5):
+        print(random.randint(0, 100), end=' ')
+print_random()
+
+print()
+
+random.seed(2)
+def print_random():
+    for i in range(5):
+        print(random.randint(0, 100), end=' ')
+print_random()
