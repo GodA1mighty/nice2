@@ -63,3 +63,21 @@ for x in range(my_time, 0, -1):
     print(f"{hours:02}:{minutes:02}:{seconds:02}")
     time.sleep(1)
 print("TIME'S UP!")
+
+
+print("\n--------------------------------------------\n")
+
+
+import time
+for i in range(10):
+    print(f"Progress: {i+1}/10") # print a new line
+    time.sleep(1) # wait for one second
+print("Done!") # print a final message
+
+print()
+
+import time
+for i in range(10):
+    print(f"Progress: {i+1}/10", end="\\r") # overwrite the previous line
+    time.sleep(1) # wait for one second
+print("Done!") # print a final message
