@@ -33,21 +33,3 @@ while True:
         print(f"{guess} is correct!")
         break
 print(f"This round took you {guesses} guesses.")
-
-
-print("\n---------------------------------------\n")
-
-
-random.seed()
-def print_random():
-    for i in range(5):
-        print(random.randint(0, 100), end=' ')
-print_random()
-
-print()
-
-random.seed(2)
-def print_random():
-    for i in range(5):
-        print(random.randint(0, 100), end=' ')
-print_random()
