@@ -25,3 +25,18 @@ else:
     print('Normal Temperature Today')
 
 print("Enjoy your day")
+
+
+print("\n-------------------\n")
+
+
+age = 22
+if age >= 18:
+    message = "Eligible"
+else:
+    message = "Not Eligible"
+print(message)
+
+#condensed version
+message1 = "Eligible1" if age >= 18 else "Not Eligible1"
+print(message1)
