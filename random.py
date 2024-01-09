@@ -62,3 +62,14 @@ def print_random():
     for i in range(5):
         print(random.randint(0, 100), end=' ')
 print_random()
+
+
+print("\n---------------------------------------\n")
+
+
+# Using randint
+print(random.randint(0, 10))  # Returns a random integer from 0 to 10 (inclusive)
+
+# Using randrange
+print(random.randrange(0, 10))  # Returns a random integer from 0 to 9 (10 is not included)
+print(random.randrange(0, 10, 2))  # Returns a random even number from 0 to 8
