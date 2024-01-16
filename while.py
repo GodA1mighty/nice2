@@ -1,7 +1,7 @@
 number = 1
 while number <= 5:
     print('*' * number)
-    number = number + 1
+    number += 1
 print('Done')
 
 print()
@@ -11,6 +11,15 @@ while name == "":
 	print('Try again')
 	name = input("What is your name? ")
 print(f"Thank You {name}")
+
+print()
+
+x = 0
+while True:
+    if x == 5:    #delete here
+        break    #and here to create an infinte loop
+    print(x)
+    x += 1
 
 print()
 
