@@ -1,0 +1,19 @@
+new_message = message[0:2] + "l"
+
+#repeats the string three times
+"examples" * 3
+
+  #Indexing
+name = "Jaylen"
+print(name[1])
+#prints 'a'
+
+color = "orange"
+color[1:4]
+#prints 'ran'
+
+fruit = "Pineapple"
+print(fruit[4:])
+#prints 'apple'
+
+  #Method
