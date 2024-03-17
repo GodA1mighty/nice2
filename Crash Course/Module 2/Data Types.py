@@ -3,6 +3,11 @@ print(type("a"))
 print(type(2))
 print(type(2.5))
 
+z = 7
+print("hi", z)
+print("hi", str(z))
+print(f"hi {str(z)}")
+
 print()
 
 import typing
