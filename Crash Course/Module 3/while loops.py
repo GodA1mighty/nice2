@@ -63,10 +63,10 @@ print("Done")
 print(##########################################)
 
 
-This function counts the number of integer factors for a 
-"given_number" variable, passed through the function’s parameters.
-The "count" return value includes the "given_number" itself as a 
-factor (n*1). 
+# This function counts the number of integer factors for a 
+# "given_number" variable, passed through the function’s parameters.
+# The "count" return value includes the "given_number" itself as a 
+# factor (n*1). 
 def count_factors(given_number):
     factor = 1
     count = 1
