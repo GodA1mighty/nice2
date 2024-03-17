@@ -1,3 +1,8 @@
+#while specified condition is True:
+    #body of loop 
+
+print(##########################################)
+
 x =   0
 while x < 5:
     print("Not there yet, x=" + str(x))
