@@ -137,9 +137,9 @@ print("    Exercise 6")
 def addition_table(given_number):
 	iterated_number = 1
 	my_sum = 1
-	while iterated_number <= 5:
+	while iterated_number <= 5:    #limits the multiplier
 		my_sum = given_number + iterated_number
-		if my_sum > 20:
+		if my_sum > 20:    #limits the sum
 			break
 		print(str(given_number), "+", str(iterated_number), "=", str(my_sum))
 		iterated_number += 1
