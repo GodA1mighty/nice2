@@ -35,23 +35,6 @@ print("Done!\nx=" + str(z))
 print('\n======================\n')
 
 
-#Output:
-#Time Left:  2
-#Time Left:  1
-#Lift Off!
-
-import time
-z = 2
-while z > 0:
-	print("Time Left: ", str(z))
-	time.sleep(1)
-	z -= 1
-print('Lift Off!')
-
-
-print('\n======================\n')
-
-
 print("    Exercise 3")
 # Output:
 # Enter Login: nah
@@ -164,3 +147,21 @@ def addition_table(given_number):
 addition_table(5)
 addition_table(17)
 addition_table(30)
+
+
+print('\n======================\n')
+
+
+print("    Exercise 7")
+#Output:
+#Time Left:  2
+#Time Left:  1
+#Lift Off!
+
+import time
+z = 2
+while z > 0:
+	print("Time Left: ", str(z))
+	time.sleep(1)
+	z -= 1
+print('Lift Off!')
