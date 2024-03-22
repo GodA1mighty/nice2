@@ -14,6 +14,12 @@ def factorial(n):
 result = factorial(5)
 print("Factorial of 5 is:", result)
 
+#you can add an input wby replacing the following:
+# x = input("Here: ")
+# result = factorial(int(x))
+# print("Factorial of " + (x) + " is:", result)
+
+
 #In the context of factorial(5), the recursion unfolds as follows:
 # factorial(5) calls factorial(4) since n * factorial(n - 1) is 5 * factorial(4).
 # factorial(4) calls factorial(3) since n * factorial(n - 1) is 4 * factorial(3).
